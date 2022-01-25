@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ActivityTelaMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/branco" />
+
+        <LinearLayout
+            android:layout_width="322dp"
+            android:layout_height="145dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="39dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonProduto"
+                android:layout_width="1dp"
+                android:layout_height="136dp"
+                android:layout_weight="1"
+                android:background="@drawable/produtos" />
+
+            <Button
+                android:id="@+id/buttonCarrinho"
+                android:layout_width="1dp"
+                android:layout_height="136dp"
+                android:layout_weight="1"
+                android:background="@drawable/carrinho" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="322dp"
+            android:layout_height="145dp"
+            android:layout_marginLeft="39dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonLoja"
+                android:layout_width="1dp"
+                android:layout_height="136dp"
+                android:layout_weight="1"
+                android:background="@drawable/localizar" />
+
+            <Button
+                android:id="@+id/buttonSobre"
+                android:layout_width="1dp"
+                android:layout_height="136dp"
+                android:layout_weight="1"
+                android:background="@drawable/sobre" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
